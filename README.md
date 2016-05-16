@@ -5,11 +5,12 @@ Conecta em cada dispositivo UBNT a partir da tabela radius e evia script para at
 apt-get install python-dev libmysqlclient-dev
  pip install MySQL-python
  
-2 - wget htt.....
+2 - wget https://github.com/gilneidp/ubnt_mass_update/atualiza.py
 
-3 - adicionar o firmware que voce deseja atualizar em uma public html ex: www.seuprovedor.com.br/xm/fwupdate.bin
+3 - adicionar o firmware que voce deseja utilizar para atualizacao em uma public html ex: www.seuprovedor.com.br/xm/fwupdate.bin
 
 4 - adicionar o arquivo atualiza_on_ubnt.sh em uma public html conforme exemplo a cima
+     - > wget https://github.com/gilneidp/ubnt_mass_update/atualiza_on_ubnt.py
 
 5 - modifique atualiza.py de acordo com sua necessidade
 
