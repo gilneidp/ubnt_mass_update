@@ -1,5 +1,5 @@
 # ubnt_mass_update
-Conecta em cada dispositivo UBNT a partir da tabela radius e evia script para atualizar os equipamentos via ssh.
+Conecta em cada dispositivo UBNT com a senha de cada dispositivos, a partir das tabelas do banco de dados Radius, enviando o script para atualizar os equipamentos via ssh.
 
 1 - Em uma maquina Linux (Com IP confiavel da sua rede):
 apt-get install python-dev libmysqlclient-dev
