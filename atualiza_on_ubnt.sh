@@ -1,5 +1,4 @@
 #!/bin/bash
-#exemplo
 VAR=`cat /etc/version`
 cd /tmp/
 rm -f fwupdate.bin
