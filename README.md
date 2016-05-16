@@ -7,8 +7,10 @@ apt-get install python-dev libmysqlclient-dev
  
 2 - wget htt.....
 
-3 - adiciona o firmware que voce deseja atualizar em uma public html ex: www.seuprovedor.com.br/xm/fwupdate.bin
+3 - adicionar o firmware que voce deseja atualizar em uma public html ex: www.seuprovedor.com.br/xm/fwupdate.bin
 
-4 - modifique atualiza.py de acordo com sua necessidade
+4 - adicionar o arquivo atualiza_on_ubnt.sh em uma public html conforme exemplo a cima
 
-5- python atualiza.py
+5 - modifique atualiza.py de acordo com sua necessidade
+
+6- python atualiza.py
