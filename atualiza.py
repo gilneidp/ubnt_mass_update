@@ -32,4 +32,4 @@ count = result.__len__()
 for i in result:
      print " TENTANDO CONECTAR NO IP: "  +  i[0] + " Senha: "  + i[3]
      os.system("sshpass -p " + i[3] + " ssh -o StrictHostKeyChecking=no admin@" + i[0] + " 'rm -f atualiza.sh'")
-     os.system("sshpass -p " + i[3] + " ssh -o StrictHostKeyChecking=no admin@" + i[0] + " 'wget -qO- https://github.com/gilneidp/ubnt_mass_update/atualiza_on_ubnt.sh | sh'&")
+     os.system("sshpass -p " + i[3] + " ssh -o StrictHostKeyChecking=no admin@" + i[0] + " 'wget -qO- https://seudominio.com/ubnt_mass_update/atualiza_on_ubnt.sh | sh'&")
