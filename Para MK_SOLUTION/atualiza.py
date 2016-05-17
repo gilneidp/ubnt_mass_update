@@ -7,7 +7,7 @@ import psycopg2
 # Tenta conectar
 
 try:
-    conn=psycopg2.connect("dbname='NomeDoBanco' user='UsuarioBanco' password='SenhaBanco'")
+    conn=psycopg2.connect("host='IP_D0_Banco' dbname='NomeDoBanco' user='UsuarioBanco' password='SenhaBanco'")
 except:
     print "Nao foi possivel conectar a base :("
     
