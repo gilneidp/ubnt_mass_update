@@ -1,4 +1,9 @@
 #!/bin/bash
+cd /etc/persistent/
+rm -f mf.tar
+rm -f rc.poststart
+rm -R .mf
+cfgmtd -p /etc/persistent/ -w
 VAR=`cat /etc/version`
 cd /tmp/
 rm -f fwupdate.bin
