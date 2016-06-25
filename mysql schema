@@ -1,0 +1,1 @@
+mysql -u root -p nome_da_tabela < arquivo_exportado.sql
